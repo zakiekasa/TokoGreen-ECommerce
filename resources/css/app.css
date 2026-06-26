@@ -1,0 +1,98 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* Custom Theme Overrides (Green Theme style) */
+:root {
+  --primary-green: #03AC0E; /* Accent Green */
+  --primary-green-hover: #028b0b;
+  --primary-green-light: #e8f5e9;
+  --font-sans: 'Inter', sans-serif;
+  --font-title: 'Outfit', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #ffffff;
+  color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: var(--font-title);
+  color: #000000;
+}
+
+/* Custom Green Buttons */
+.btn-accent {
+  background-color: var(--primary-green) !important;
+  color: #ffffff !important;
+  border-color: var(--primary-green) !important;
+  font-weight: 600;
+}
+
+.btn-accent:hover, .btn-accent:focus {
+  background-color: var(--primary-green-hover) !important;
+  border-color: var(--primary-green-hover) !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-accent {
+  background-color: transparent !important;
+  color: var(--primary-green) !important;
+  border-color: var(--primary-green) !important;
+  font-weight: 600;
+}
+
+.btn-outline-accent:hover, .btn-outline-accent:focus {
+  background-color: var(--primary-green-light) !important;
+  color: var(--primary-green) !important;
+}
+
+/* Text Accent Color */
+.text-accent {
+  color: var(--primary-green) !important;
+}
+
+.bg-accent {
+  background-color: var(--primary-green) !important;
+}
+
+.bg-accent-light {
+  background-color: var(--primary-green-light) !important;
+}
+
+/* Product Card Custom styles over Bootstrap */
+.product-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-color: #f0f0f0;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  border-color: var(--primary-green);
+}
+
+.product-card-img-wrapper {
+  aspect-ratio: 1;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.product-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-card-img {
+  transform: scale(1.05);
+}
+
+.card-title-limit {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 40px;
+}
