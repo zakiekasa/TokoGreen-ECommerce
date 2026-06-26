@@ -1,9 +1,9 @@
 # TokoGreen - Premium E-Commerce App
 
-[![Laravel Version](https://img.shields.io/badge/laravel-v11.x-red.svg)](https://laravel.com)
-[![React Version](https://img.shields.io/badge/react-v18.x-blue.svg)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/typescript-v5.x-blue.svg)](https://www.typescriptlang.org)
-[![Bootstrap](https://img.shields.io/badge/bootstrap-v5.3-purple.svg)](https://getbootstrap.com)
+[![Laravel](https://img.shields.io/badge/Laravel_11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap_5-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
 
 **TokoGreen** adalah aplikasi e-commerce premium yang didesain dengan performa tinggi menggunakan arsitektur monorepo modern yang menggabungkan kekuatan backend **Laravel** dan interaktivitas SPA dari **React** + **TypeScript** melalui **Inertia.js**.
 
